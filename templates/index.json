@@ -34,6 +34,13 @@
     },
     "welcome": {
       "type": "welcome",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+          }
+        }
+      },
       "settings": {
       }
     }
