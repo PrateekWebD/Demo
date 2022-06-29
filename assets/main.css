@@ -8,7 +8,6 @@
 	Global Settings & Utilities
     ========================================================================== */
 body {
-  background-color: {settings.color_page_bg};
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
