@@ -1,5 +1,6 @@
 {% for product in products %}
-	{{product.title}}
+	<h3>{{product.title}}</h3>
+	<a href="{{ product.url }}"><img src="{{ product.featured_image | image_url }}" ></a>
 {% endfor %}
 
 
