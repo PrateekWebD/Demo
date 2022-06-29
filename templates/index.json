@@ -1,12 +1,12 @@
 {
   "sections": {
-    "main": {
+    "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "home_page_banner"
   ]
 }
