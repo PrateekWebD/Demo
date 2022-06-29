@@ -18,12 +18,28 @@
 {% schema %}
   {
     "name": "Welcome",
-    "settings": [
+	"blocks": [
 		{
-			"id": "heading",
-			"type": "text",
-			"label": "Heading"
-		}
+         "name": "Welcome-Content",
+         "type": "welcome-content",
+         "settings": [
+           {
+             "type": "text",
+             "id": "heading",
+             "label": "Heading"
+           },
+			{
+             "type": "richtext",
+             "id": "content",
+             "label": "Content"
+           },
+			{
+             "type": "text",
+             "id": "button",
+             "label": "Button"
+           }
+         ]
+     	}
 	],
 	"presets": [
 		{
