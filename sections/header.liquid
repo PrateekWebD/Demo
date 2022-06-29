@@ -17,10 +17,10 @@
                 <div class="scrollable-content">
                   <ul class="menu">
           
-                    {% for link in section.settings.menu %}
-                    	hello
+                    {% for link in section.settings.menu.links %}
+                    	<li><a href="#">{{ link.title }}</a></li>
                     {% endfor %}
-                    <li><a href="#">about</a></li>
+                
           
                   </ul>
                 </div>
