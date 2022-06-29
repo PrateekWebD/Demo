@@ -1,6 +1,7 @@
 <h1 style="color: black;">All Collections</h1>
 {% for collection in collections %}
-	Hello
+	<h3>{{collection.title}}</h3>
+	<a href="{{ collection.url }}"><img src="{{ collection.featured_image | image_url }}" ></a>
 {% endfor %}
 
 {% schema %}
