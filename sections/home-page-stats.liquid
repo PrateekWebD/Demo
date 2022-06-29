@@ -25,6 +25,16 @@
 {% schema %}
   {
     "name": "Stats",
-    "settings": []
+    "settings": [
+		{
+			"id": "range",
+			"type": "range",
+			"label": "No of stats",
+			"min": 1,
+			"max": 10,
+			"step": 1,
+			"default": 2
+		}
+	]
   }
 {% endschema %}
