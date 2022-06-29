@@ -10,7 +10,8 @@
     "home_page_stats": {
       "type": "home-page-stats",
       "settings": {
-        "range": 2
+        "range": 2,
+        "text": "20"
       }
     }
   },
