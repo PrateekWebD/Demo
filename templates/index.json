@@ -1,7 +1,12 @@
 {
   "sections": {
+    "main": {
+      "type": "home-page",
+      "settings": {
+      }
+    }
   },
   "order": [
-
+    "main"
   ]
 }
