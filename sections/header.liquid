@@ -17,7 +17,7 @@
                 <div class="scrollable-content">
                   <ul class="menu">
           
-                    {% for link in main-menu.links %}
+                    {% for link in section.settings.menu.links %}
                     	hello
                     {% endfor %}
                     <li><a href="#">about</a></li>
@@ -35,6 +35,12 @@
 {% schema %}
   {
     "name": "Header",
-    "settings": []
+    "settings": [
+		{
+      "type": "link_list",
+      "id": "menu",
+      "label": "Header Menu"
+    }
+	]
   }
 {% endschema %}
