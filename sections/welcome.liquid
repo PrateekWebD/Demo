@@ -2,7 +2,7 @@
         <div class="section pb-lg-5">
           <div class="container text-center">
             <header class="mb-4 pb-lg-1">
-              <h2 class="text-primary">Welcome to Sustainable Food Enterprises</h2>
+              <h2 class="text-primary">{{ section.settings.heading }}</h2>
             </header>
             <div class="px-xl-4">
               <p>Operating a number of thriving aquaculture businesses at a global scale, Sustainable Food Enterprises is on a mission to support the aquaculture sector through cutting-edge research and development.</p>
@@ -17,7 +17,13 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Welcome",
+    "settings": [
+		{
+			"id": "heading",
+			"type": "text",
+			"label": "Heading"
+		}
+	]
   }
 {% endschema %}
