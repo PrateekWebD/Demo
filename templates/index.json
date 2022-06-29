@@ -3,6 +3,8 @@
     "main": {
       "type": "home-page",
       "settings": {
+        "main-banner": "shopify:\/\/shop_images\/banner-img1.jpg",
+        "main-banner-heading": ""
       }
     }
   },
