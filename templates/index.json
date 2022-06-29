@@ -32,16 +32,15 @@
       "settings": {
       }
     },
-    "165650725334b79b7f": {
+    "welcome": {
       "type": "welcome",
       "settings": {
-        "heading": "Welcome to Sustainable Food Enterprises"
       }
     }
   },
   "order": [
     "home_page_banner",
     "home_page_stats",
-    "165650725334b79b7f"
+    "welcome"
   ]
 }
