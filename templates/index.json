@@ -9,9 +9,26 @@
     },
     "home_page_stats": {
       "type": "home-page-stats",
+      "blocks": {
+        "8b7e3760-e747-4513-8867-f600737fe579": {
+          "type": "stat-box",
+          "settings": {
+            "percent": 39,
+            "content": ""
+          }
+        },
+        "ef0ba3b1-5574-4af4-bdf2-0a35b54d36ea": {
+          "type": "stat-box",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "8b7e3760-e747-4513-8867-f600737fe579",
+        "ef0ba3b1-5574-4af4-bdf2-0a35b54d36ea"
+      ],
       "settings": {
-        "range": 2,
-        "text": "20"
       }
     }
   },
