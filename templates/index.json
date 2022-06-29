@@ -31,10 +31,16 @@
       ],
       "settings": {
       }
+    },
+    "welcome": {
+      "type": "welcome",
+      "settings": {
+      }
     }
   },
   "order": [
     "home_page_banner",
-    "home_page_stats"
+    "home_page_stats",
+    "welcome"
   ]
 }
