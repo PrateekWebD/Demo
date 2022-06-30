@@ -7,7 +7,7 @@
         "text": "Investing in a sustainable future"
       }
     },
-    "165657444223d73265": {
+    "demo_banner": {
       "type": "demo-banner",
       "blocks": {
         "165657444217128d08-0": {
@@ -88,7 +88,7 @@
   },
   "order": [
     "home_page_banner",
-    "165657444223d73265",
+    "demo_banner",
     "home_page_stats",
     "welcome"
   ]
