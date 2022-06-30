@@ -10,6 +10,7 @@
     "main": {
       "type": "main-blog",
       "settings": {
+        "heading": "Latest Sustainable Food Enterprises News"
       }
     }
   },
