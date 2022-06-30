@@ -1,12 +1,12 @@
 {
   "sections": {
-    "demo": {
+    "main": {
       "type": "main-blog",
       "settings": {
       }
     }
   },
   "order": [
-    "demo"
+    "main"
   ]
 }
