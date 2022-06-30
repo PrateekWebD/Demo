@@ -10,23 +10,19 @@
     "demo_banner": {
       "type": "demo-banner",
       "blocks": {
-        "165657444217128d08-0": {
+        "image": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-img1.jpg"
           }
         },
-        "165657444217128d08-1": {
+        "text": {
           "type": "text",
           "settings": {
             "text": "Investing in a sustainable future"
           }
         }
       },
-      "block_order": [
-        "165657444217128d08-0",
-        "165657444217128d08-1"
-      ],
       "settings": {
       }
     },
