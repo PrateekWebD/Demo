@@ -13,7 +13,7 @@
         "165657444217128d08-0": {
           "type": "image",
           "settings": {
-            "main-banner": "shopify:\/\/shop_images\/banner-img1.jpg"
+            "image": "shopify:\/\/shop_images\/banner-img1.jpg"
           }
         },
         "165657444217128d08-1": {
