@@ -2,30 +2,30 @@
         <div class="section pb-lg-5">
           <div class="container text-center">
             
-            {% for block in section.blocks %}
-             {% case block.type %}
-              {% when 'heading' %}
+            {%- for block in section.blocks -%}
+             {%- case block.type -%}
+              {%- when 'heading' -%}
             	<header class="mb-4 pb-lg-1">
                   <h2 class="text-primary">{{ block.settings.heading }}</h2>
                  </header>
-              {% endcase %}
-            {% endfor %}
+              {%- endcase -%}
+            {%- endfor -%}
             
             
-            {% for block in section.blocks %}
-             {% case block.type %}
-              {% when 'text' %}
+            {%- for block in section.blocks -%}
+             {%- case block.type -%}
+              {%- when 'text' -%}
                 <div class="px-xl-4">
                   {{ block.settings.text }}
-                  {% for block in section.blocks %}
-             		{% case block.type %}
-               			{% when 'buttons' %}
+                  {%- for block in section.blocks -%}
+             		{%- case block.type -%}
+               			{%- when 'buttons' -%}
                   		  <a href="#" class="btn btn-outline-primary">{{ block.settings.button }}</a>
-             		{% endcase %} 
-            	  {% endfor %}
+             		{%- endcase -%} 
+            	  {%- endfor -%}
                   </div>
-             {% endcase %}
-            {% endfor %}
+             {%- endcase -%}
+            {%- endfor -%}
                     
           </div>
         </div>
