@@ -1,12 +1,60 @@
+<!-- container -->
+<!-- 	<div id="container"> -->
+<!-- banner -->
+      <div id="banner">
+        <figure class="figure1">
+          <img src="" alt="img">
+        </figure>
+        <div class="description">
+          <div class="container">
+            <h1 class="display-2"></h1>
+          </div>
+        </div>
+      </div>
+<!-- /banner -->
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner with Text",
+    "settings": [],
+	"blocks": [
+		{
+			"type": "image",
+			"name": "image",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "main-banner",
+					"label": "Image"
+				}
+			]
+		},
+		{
+			"type": "text",
+			"name": "text",
+			"settings": [
+				{
+					"type": "textarea",
+					"id": "text",
+					"label": "Text"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Banner with Text",
+			"blocks": [
+				{
+					"type": "image"
+				},
+				{
+					"type": "text"
+				}
+			]
+		}
+	]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
