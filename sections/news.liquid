@@ -9,7 +9,7 @@
               {% for article in blogs.myblogs.articles %}
               <div class="col-md-6 pe-xl-5 column mb-md-0">
                 <article class="card1">
-                  <a href="#">
+                  <a href="{{ article.url }}">
                     <figure class="figure1">
                       <img src="{{ article.image | image_url }}" alt="img">
                     </figure>
