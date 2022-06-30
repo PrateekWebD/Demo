@@ -38,16 +38,19 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "heading": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "richtext": ""
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
+            "button": "Find out More"
           }
         }
       },
@@ -57,6 +60,7 @@
         "button"
       ],
       "settings": {
+        "demo": ""
       }
     }
   },
