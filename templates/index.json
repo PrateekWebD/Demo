@@ -52,6 +52,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image2.jpg"
       }
+    },
+    "news": {
+      "type": "news",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -59,6 +64,7 @@
     "stats",
     "welcome",
     "mission",
-    "banner"
+    "banner",
+    "news"
   ]
 }
