@@ -46,11 +46,8 @@
 <!-- /section -->
 
 
-<!-- {% assign article = articles['myblogs'] %}
-{{ article.title | link_to: article.url }} -->
-
-{% for product in products %}
-	hello 
+{% for article in blogs.myblogs.articles %}
+  {{- article.title | link_to: article.url }}
 {% endfor %}
 
 {% schema %}
