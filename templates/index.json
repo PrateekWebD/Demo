@@ -3,6 +3,7 @@
     "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-img1.jpg",
         "text": ""
       }
     },
