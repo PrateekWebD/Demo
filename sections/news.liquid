@@ -29,13 +29,13 @@
                   {% assign articles = blog.news.articles %}
                   {% for article in blog.news.articles %}
                   
-               		hello
-<!--                   <li>
+             
+                  <li>
                     <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
                     <a href="{{ article.url }}">
                       <p>{{ article.title }}</p>
                     </a>
-                  </li> -->
+                  </li>
                  {% endfor %}
                   
                 </ul>
