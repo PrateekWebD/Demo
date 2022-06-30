@@ -61,19 +61,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": ""
+            "heading": "Welcome to Sustainable Food Enterprises"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Operating a number of thriving aquaculture businesses at a global scale, Sustainable Food Enterprises is on a mission to support the aquaculture sector through cutting-edge research and development.<\/p><p>Supported by over a decade of R&D history and underpinned by the knowledge of our industry-leading aquaculture team, Sustainable Food Enterprises has achieved numerous aquaculture breakthrough since inception, including the design and development of world-first aquaculture equipment and continuous success in drastically increasing shellfish survival rates within its worldwide farms and hatcheries.<\/p>"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button": ""
+            "button": "find out more"
           }
         }
       },
