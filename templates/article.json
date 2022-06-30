@@ -1,5 +1,10 @@
 {
   "sections": {
+    "banner_with_text": {
+      "type": "banner-with-text",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-article",
       "settings": {
@@ -7,6 +12,7 @@
     }
   },
   "order": [
+    "banner_with_text",
     "main"
   ]
 }
