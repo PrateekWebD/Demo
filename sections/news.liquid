@@ -28,7 +28,7 @@
                 <ul class="list1">
                   
                   {% for article in blogs.news.articles %}
-                  {{article}}<br>
+                  {{article.id}}<br>
 <!--                   <li>
                     <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
                     <a href="{{ article.url }}">
