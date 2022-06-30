@@ -32,6 +32,18 @@
     },
     "home_page_stats": {
       "type": "home-page-stats",
+      "blocks": {
+        "daf71c8f-fadc-4260-a046-db7eb54a8248": {
+          "type": "stat-box",
+          "settings": {
+            "percent": 32,
+            "content": "<p>This is the best place<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "daf71c8f-fadc-4260-a046-db7eb54a8248"
+      ],
       "settings": {
       }
     },
