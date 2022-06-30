@@ -11,16 +11,16 @@
          {% endcase %}
         {% endfor %}
         
+        <div class="description">
+          <div class="container">
         {% for block in section.blocks %}
          {% case block.type %}
           {% when 'text' %}
-            <div class="description">
-              <div class="container">
                 <h1 class="display-2">{{ block.settings.text }}</h1>
-              </div>
-            </div>
         {% endcase %}
        {% endfor %}
+        </div>
+       </div>
       </div>
 <!-- /banner -->
 
