@@ -1,12 +1,35 @@
+ <!-- section -->
+        <div class="section pt-0">
+          <div class="container text-center">
+            <header class="section-header">
+              <h2 class="display-1 text-primary">{{ section.settings.heading }}</h2>
+            </header>
+            <div class="row">
+              <div class="col-xl-11 mx-auto">
+                <blockquote class="blockquote">
+                  {{ section.settings.content }}
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- /section -->
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Mission Sections",
+    "settings": [
+		{
+			"id": "heading",
+			"type": "text",
+			"label": "Heading"
+		},
+		{
+			"id": "content",
+			"type": "richtext",
+			"label": "Content"
+		}
+	]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
