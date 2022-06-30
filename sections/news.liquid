@@ -45,11 +45,13 @@
         </div>
 <!-- /section -->
 
-hello
 
-{% assign article = articles['myblogs'] %}
-{{ article.title | link_to: article.url }}
+<!-- {% assign article = articles['myblogs'] %}
+{{ article.title | link_to: article.url }} -->
 
+{% for article in articles %}
+	hello 
+{% endfor %}
 
 {% schema %}
   {
