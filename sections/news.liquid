@@ -27,7 +27,9 @@
               <div class="col-md-6 ps-xl-5 column mb-0">
                 <ul class="list1">
                   
-                  {% for article in blogs.news.articles %}
+                  {% for article in blogs.news.articles[0] %}
+                  
+                  {{article.title}}
 <!--                   <li>
                     <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
                     <a href="{{ article.url }}">
