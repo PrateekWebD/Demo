@@ -27,7 +27,7 @@
               <div class="col-md-6 ps-xl-5 column mb-0">
                 <ul class="list1">
                   
-                  { i=1 }
+                  {% assign i=1 %}
                   {% for article in blogs.news.articles %}
 
                   <li>
@@ -37,7 +37,7 @@
                     </a>
                   </li>
                  
-                 { i++ }
+                 {% assign i = i | plus: 1 %}
                  {% if i==3 %}
                   {% break %}
                  {% endif %}
