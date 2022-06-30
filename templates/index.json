@@ -3,8 +3,6 @@
     "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img1.jpg",
-        "text": "Investing in a sustainable future"
       }
     },
     "demo_banner": {
@@ -13,13 +11,11 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-img1.jpg"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Investing in a sustainable future"
           }
         }
       },
@@ -33,24 +29,22 @@
     "home_page_stats": {
       "type": "home-page-stats",
       "blocks": {
-        "8b7e3760-e747-4513-8867-f600737fe579": {
-          "type": "stat-box",
+        "value": {
+          "type": "value",
           "settings": {
-            "percent": 39,
-            "content": "<p>Growth in global aquaculture production from 2009 to 2019<br\/>- FAO<\/p>"
+            "percent": 39
           }
         },
-        "ef0ba3b1-5574-4af4-bdf2-0a35b54d36ea": {
-          "type": "stat-box",
+        "text": {
+          "type": "text",
           "settings": {
-            "percent": 62,
             "content": "<p>Of all seafood will come from aquaculture by 2030<br\/>- Seafish<\/p>"
           }
         }
       },
       "block_order": [
-        "8b7e3760-e747-4513-8867-f600737fe579",
-        "ef0ba3b1-5574-4af4-bdf2-0a35b54d36ea"
+        "value",
+        "text"
       ],
       "settings": {
       }
@@ -61,19 +55,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": ""
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button": ""
           }
         }
       },
