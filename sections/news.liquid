@@ -6,7 +6,6 @@
             </header>
             <div class="row align-items-center">
               {% assign i=1 %}
-              Value of I is {{ i }}
               {% for article in blogs.myblogs.articles %}
               <div class="col-md-6 pe-xl-5 column mb-md-0">
                 <article class="card1">
@@ -21,6 +20,9 @@
                   </a>
                 </article>
               </div>
+             {% if i==1 %}
+              	{% break %}
+             {% endif %}
              {% endfor %}
               <div class="col-md-6 ps-xl-5 column mb-0">
                 <ul class="list1">
