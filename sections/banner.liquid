@@ -1,12 +1,26 @@
+ <!-- section -->
+        <div class="image-section pt-2 pt-lg-5">
+          <figure class="figure1">
+            <img src="{{ section.settings.image | image_url }}" alt="img">
+          </figure>
+        </div>
+<!-- /section -->
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner",
+    "settings": [
+		{
+			"id": "image",
+			"type": "image_picker",
+			"label": "Banner Image"
+		}
+	],
+	"presets": [
+		{
+			"name": "Banner"
+		}
+	]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
