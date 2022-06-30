@@ -27,15 +27,20 @@
               <div class="col-md-6 ps-xl-5 column mb-0">
                 <ul class="list1">
                   
+                  { i=1 }
                   {% for article in blogs.news.articles %}
-                  
-             
+
                   <li>
                     <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
                     <a href="{{ article.url }}">
                       <p>{{ article.title }}</p>
                     </a>
                   </li>
+                 
+                 { i++ }
+                 {% if i==3 %}
+                  {% break %}
+                 {% endif %}
                  {% endfor %}
                   
                 </ul>
