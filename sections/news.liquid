@@ -28,10 +28,7 @@
                 <ul class="list1">
                   
                   {% assign i=1 %}
-                  {% assign articles = blogs.news.articles %}
-                  {% assign articles = articles | offset: 3 %}
-                  
-                  {% for article in articles %}
+                  {% for article in blogs.news.articles %}
 
                   <li>
                     <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
