@@ -1,5 +1,48 @@
 <!-- section -->
-       
+        <div class="section">
+          <div class="container py-xl-5">
+            <header class="section-header">
+              <h2 class="display-3 fw-normal">{{ section.settings.heading }}</h2>
+            </header>
+            <div class="row align-items-center">
+              {% assign i=1 %}
+              {% for article in blogs.news.articles %}
+              <div class="col-md-6 pe-xl-5 column mb-md-0">
+                <article class="card1">
+                  <a href="{{ article.url }}">
+                    <figure class="figure1">
+                      <img src="{{ article.image | image_url }}" alt="img">
+                    </figure>
+                    <div class="description">
+                      <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
+                      <p>{{ article.title }}</p>
+                    </div>
+                  </a>
+                </article>
+              </div>
+             {% if i==1 %}
+              	{% break %}
+             {% endif %}
+             {% endfor %}
+              <div class="col-md-6 ps-xl-5 column mb-0">
+                <ul class="list1">
+                  {% assign articles = blog.news.articles %}
+                  {% for article in blog.news.articles %}
+                  
+                  {{article.title}}
+<!--                   <li>
+                    <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
+                    <a href="{{ article.url }}">
+                      <p>{{ article.title }}</p>
+                    </a>
+                  </li> -->
+                 {% endfor %}
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 <!-- /section -->
 
 
