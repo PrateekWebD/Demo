@@ -50,6 +50,7 @@
     "banner": {
       "type": "banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/image2.jpg"
       }
     }
   },
