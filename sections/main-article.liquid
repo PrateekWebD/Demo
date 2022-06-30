@@ -3,17 +3,9 @@
         <div class="section">
           <div class="container py-xl-5">
             <article class="post">
-              <span class="meta"></span>
+              <span class="meta">{{ article.created_at | date: '%d %B %Y' }}</span>
               {{ article.content }}
             </article>
           </div>
         </div>
 </div>
-
-
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
