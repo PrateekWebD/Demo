@@ -1,10 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-blog",
-      "settings": {
-      }
-    },
     "demo": {
       "type": "blog-section",
       "settings": {
@@ -12,7 +7,6 @@
     }
   },
   "order": [
-    "main",
     "demo"
   ]
 }
