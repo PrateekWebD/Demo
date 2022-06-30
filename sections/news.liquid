@@ -37,10 +37,11 @@
                     </a>
                   </li>
                  
-                 {% assign i = i | plus: 1 %}
+            
                  {% if i==3 %}
                   {% break %}
                  {% endif %}
+                  {% assign i = i | plus: 1 %}
                  {% endfor %}
                   
                 </ul>
