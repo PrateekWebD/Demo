@@ -17,17 +17,16 @@
               {% when 'text' %}
                 <div class="px-xl-4">
                   {{ block.settings.text }}
+                  {% for block in section.blocks %}
+             		{% case block.type %}
+               			{% when 'buttons' %}
+                  		  <a href="#" class="btn btn-outline-primary">{{ block.settings.button }}</a>
+             		{% endcase %} 
+            	  {% endfor %}
+                  </div>
              {% endcase %}
             {% endfor %}
-                  
-                  
-            {% for block in section.blocks %}
-             {% case block.type %}
-               {% when 'buttons' %}
-                  <a href="#" class="btn btn-outline-primary">{{ block.settings.button }}</a>
-             {% endcase %} 
-            {% endfor %}
-              </div>
+                    
           </div>
         </div>
 <!-- /section -->
