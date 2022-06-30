@@ -3,6 +3,7 @@
     "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
+        "text": ""
       }
     },
     "demo_banner": {
@@ -16,6 +17,7 @@
         "text": {
           "type": "text",
           "settings": {
+            "text": ""
           }
         }
       },
@@ -55,16 +57,19 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "heading": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "text": ""
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
+            "button": "asdf"
           }
         }
       },
