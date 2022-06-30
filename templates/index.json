@@ -7,29 +7,6 @@
         "text": "Investing in a sustainable future"
       }
     },
-    "demo_banner": {
-      "type": "demo-banner",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Investing in a sustainable future"
-          }
-        },
-        "image": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-img1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "image"
-      ],
-      "settings": {
-      }
-    },
     "home_page_stats": {
       "type": "home-page-stats",
       "blocks": {
@@ -58,16 +35,16 @@
     "welcome": {
       "type": "welcome",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome to Sustainable Food Enterprises"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "text": "<p>Operating a number of thriving aquaculture businesses at a global scale, Sustainable Food Enterprises is on a mission to support the aquaculture sector through cutting-edge research and development.<\/p><p>Supported by over a decade of R&D history and underpinned by the knowledge of our industry-leading aquaculture team, Sustainable Food Enterprises has achieved numerous aquaculture breakthrough since inception, including the design and development of world-first aquaculture equipment and continuous success in drastically increasing shellfish survival rates within its worldwide farms and hatcheries.<\/p>"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Sustainable Food Enterprises"
           }
         },
         "button": {
@@ -78,8 +55,8 @@
         }
       },
       "block_order": [
-        "heading",
         "text",
+        "heading",
         "button"
       ],
       "settings": {
@@ -88,7 +65,6 @@
   },
   "order": [
     "home_page_banner",
-    "demo_banner",
     "home_page_stats",
     "welcome"
   ]
