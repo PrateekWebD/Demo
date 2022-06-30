@@ -4,27 +4,28 @@
       "type": "home-page-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-img1.jpg",
-        "text": ""
+        "text": "Investing in a sustainable future"
       }
     },
-    "demo_banner": {
+    "165657444223d73265": {
       "type": "demo-banner",
       "blocks": {
-        "image": {
+        "165657444217128d08-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner-img1.jpg"
           }
         },
-        "text": {
+        "165657444217128d08-1": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "Investing in a sustainable future"
           }
         }
       },
       "block_order": [
-        "image",
-        "text"
+        "165657444217128d08-0",
+        "165657444217128d08-1"
       ],
       "settings": {
       }
@@ -32,22 +33,24 @@
     "home_page_stats": {
       "type": "home-page-stats",
       "blocks": {
-        "value": {
-          "type": "value",
+        "8b7e3760-e747-4513-8867-f600737fe579": {
+          "type": "stat-box",
           "settings": {
-            "percent": 39
+            "percent": 39,
+            "content": "<p>Growth in global aquaculture production from 2009 to 2019<br\/>- FAO<\/p>"
           }
         },
-        "text": {
-          "type": "text",
+        "ef0ba3b1-5574-4af4-bdf2-0a35b54d36ea": {
+          "type": "stat-box",
           "settings": {
+            "percent": 62,
             "content": "<p>Of all seafood will come from aquaculture by 2030<br\/>- Seafish<\/p>"
           }
         }
       },
       "block_order": [
-        "value",
-        "text"
+        "8b7e3760-e747-4513-8867-f600737fe579",
+        "ef0ba3b1-5574-4af4-bdf2-0a35b54d36ea"
       ],
       "settings": {
       }
@@ -70,7 +73,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button": "kjl;m"
+            "button": ""
           }
         }
       },
@@ -85,7 +88,7 @@
   },
   "order": [
     "home_page_banner",
-    "demo_banner",
+    "165657444223d73265",
     "home_page_stats",
     "welcome"
   ]
