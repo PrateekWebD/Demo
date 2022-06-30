@@ -29,7 +29,7 @@
                   
                   {% assign i=1 %}
                   {% assign articles = blogs.news.articles %}
-                  hello
+                  {{ articles | json }}
                   {% for article in articles %}
 
                   <li>
