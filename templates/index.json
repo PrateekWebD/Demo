@@ -3,6 +3,7 @@
     "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
+        "text": ""
       }
     },
     "demo_banner": {
@@ -11,11 +12,13 @@
         "image": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner-img1.jpg"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "text": "Investing in a sustainable future"
           }
         }
       },
@@ -57,16 +60,19 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "heading": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "text": ""
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
+            "button": ""
           }
         }
       },
