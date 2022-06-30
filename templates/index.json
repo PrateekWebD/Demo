@@ -3,29 +3,25 @@
     "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img1.jpg",
-        "text": "Investing in a sustainable future"
       }
     },
-    "165657444223d73265": {
+    "demo_banner": {
       "type": "demo-banner",
       "blocks": {
-        "165657444217128d08-0": {
+        "image": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-img1.jpg"
           }
         },
-        "165657444217128d08-1": {
+        "text": {
           "type": "text",
           "settings": {
-            "text": "Investing in a sustainable future"
           }
         }
       },
       "block_order": [
-        "165657444217128d08-0",
-        "165657444217128d08-1"
+        "image",
+        "text"
       ],
       "settings": {
       }
@@ -61,19 +57,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": ""
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button": "asdfadsf"
           }
         }
       },
@@ -88,7 +81,7 @@
   },
   "order": [
     "home_page_banner",
-    "165657444223d73265",
+    "demo_banner",
     "home_page_stats",
     "welcome"
   ]
