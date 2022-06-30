@@ -1,14 +1,14 @@
 {
   "sections": {
-    "home_page_banner": {
-      "type": "home-page-banner",
+    "banner_with_text": {
+      "type": "banner-with-text",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-img1.jpg",
         "text": "Investing in a sustainable future"
       }
     },
-    "home_page_stats": {
-      "type": "home-page-stats",
+    "stats": {
+      "type": "stats",
       "blocks": {
         "daf71c8f-fadc-4260-a046-db7eb54a8248": {
           "type": "stat-box",
@@ -64,8 +64,8 @@
     }
   },
   "order": [
-    "home_page_banner",
-    "home_page_stats",
+    "banner_with_text",
+    "stats",
     "welcome"
   ]
 }

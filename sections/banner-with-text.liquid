@@ -1,12 +1,38 @@
+<!-- container -->
+<!-- 	<div id="container"> -->
+<!-- banner -->
+      <div id="banner">
+        <figure class="figure1">
+          <img src="{{ section.settings.image | image_url }}" alt="img">
+        </figure>
+        <div class="description">
+          <div class="container">
+            <h1 class="display-2">{{ section.settings.text }}</h1>
+          </div>
+        </div>
+      </div>
+<!-- /banner -->
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner with Text",
+    "settings": [
+		{
+			"id": "image",
+			"type": "image_picker",
+			"label": "Image"
+		},
+		{
+			"id": "text",
+			"type": "textarea",
+			"label": "Text"
+		}
+	],
+	"presets": [
+		{
+			"name": "Main Banner"
+		}
+	]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
