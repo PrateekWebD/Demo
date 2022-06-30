@@ -2,30 +2,12 @@
         <div class="section pb-lg-5">
           <div class="container text-center">
             <header class="mb-4 pb-lg-1">
-            {% for block in section.blocks %}
-             {% case block.type %}
-              {% when 'heading' %}
-                  <h2 class="text-primary">{{ block.settings.heading }}</h2>
-              {% endcase %}
-            {% endfor %}
+              <h2 class="text-primary">{{ section.settings.heading }}</h2>
             </header>
-            
-            {% for block in section.blocks %}
-             {% case block.type %}
-              {% when 'text' %}
-                <div class="px-xl-4">
-                  {{ block.settings.text }}
-             {% endcase %}
-            {% endfor %}
-                  
-                  
-            {% for block in section.blocks %}
-             {% case block.type %}
-               {% when 'buttons' %}
-                  <a href="#" class="btn btn-outline-primary">{{ block.settings.button }}</a>
-             {% endcase %} 
-            {% endfor %}
-              </div>
+            <div class="px-xl-4">
+              {{ section.settings.text }}
+              <a href="#" class="btn btn-outline-primary">{{ section.settings.button }}</a>
+            </div>
           </div>
         </div>
 <!-- /section -->
@@ -35,60 +17,26 @@
 {% schema %}
     {
         "name": "Welcome",
-		"tag": "section",
-		"class": "section",
 		"settings": [
-			
-		],
-		"blocks": [
 			{
-				"type": "heading",
-				"name": "heading",
-				"settings": [
-					{
-						"type": "text",
-						"id": "heading",
-						"label": "Heading"
-					}
-				]
+				"type": "text",
+				"id": "heading",
+				"label": "Heading"
+			},
+			{
+				"type": "richtext",
+				"id": "text",
+				"label": "Text"
 			},
 			{
 				"type": "text",
-				"name": "text",
-				"settings": [
-					{
-						"type": "richtext",
-						"id": "text",
-						"label": "Text"
-					}
-				]
-			},
-			{
-				"type": "buttons",
-				"name": "button",
-				"settings": [
-					{
-						"type": "text",
-						"id": "button",
-						"label": "Button Label"
-					}
-				]
+				"id": "button",
+				"label": "Button Label"
 			}
 		],
 		"presets": [
 			{
-				"name": "Welcome Section",
-				"blocks": [
-					{
-						"type": "heading"
-					},
-					{
-						"type": "text"
-					},
-					{
-						"type": "buttons"
-					}
-				]
+				"name": "Welcome Section"
 			}
 		]
     }
