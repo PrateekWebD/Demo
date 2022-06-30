@@ -6,7 +6,7 @@
          {% case block.type %}
           {% when 'image' %}
             <figure class="figure1">
-              <img src="" alt="img">
+              <img src="{{ block.settings.image | image_url }}" alt="img">
             </figure>
          {% endcase %}
         {% endfor %}
@@ -16,7 +16,7 @@
           {% when 'text' %}
             <div class="description">
               <div class="container">
-                <h1 class="display-2"></h1>
+                <h1 class="display-2">{{ block.settings.text }}</h1>
               </div>
             </div>
         {% endcase %}
@@ -37,7 +37,7 @@
 			"settings": [
 				{
 					"type": "image_picker",
-					"id": "main-banner",
+					"id": "image",
 					"label": "Image"
 				}
 			]
