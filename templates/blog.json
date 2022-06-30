@@ -3,14 +3,11 @@
     "banner_with_text": {
       "type": "banner-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img4.jpg",
-        "text": "News"
       }
     },
     "main": {
       "type": "main-blog",
       "settings": {
-        "heading": "Latest Sustainable Food Enterprises News"
       }
     }
   },
