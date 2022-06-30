@@ -1,12 +1,10 @@
+{% for article in blogs.news.articles %}
+	{{article.title}}<br>
+{% endfor %}
+
 {% schema %}
   {
     "name": "Section name",
     "settings": []
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
