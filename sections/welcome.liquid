@@ -1,6 +1,7 @@
 <!-- section -->
         <div class="section pb-lg-5">
           <div class="container text-center">
+            {% for block in section.blocks %}
             <header class="mb-4 pb-lg-1">
               <h2 class="text-primary">{{ section.settings.heading }}</h2>
             </header>
@@ -9,6 +10,7 @@
               <p>Supported by over a decade of R&D history and underpinned by the knowledge of our industry-leading aquaculture team, Sustainable Food Enterprises has achieved numerous aquaculture breakthrough since inception, including the design and development of world-first aquaculture equipment and continuous success in drastically increasing shellfish survival rates within its worldwide farms and hatcheries.</p>
               <a href="#" class="btn btn-outline-primary">Find out more</a>
             </div>
+            {% endfor %}
           </div>
         </div>
 <!-- /section -->
