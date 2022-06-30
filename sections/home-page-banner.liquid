@@ -3,11 +3,11 @@
 <!-- banner -->
       <div id="banner">
         <figure class="figure1">
-          <img src="{{ section.settings.main-banner | image_url }}" alt="img">
+          <img src="{{ section.settings.image | image_url }}" alt="img">
         </figure>
         <div class="description">
           <div class="container">
-            <h1 class="display-2">{{ section.settings.main-banner-heading }}</h1>
+            <h1 class="display-2">{{ section.settings.text }}</h1>
           </div>
         </div>
       </div>
@@ -19,14 +19,14 @@
     "name": "Banner with Text",
     "settings": [
 		{
-			"id": "main-banner",
+			"id": "image",
 			"type": "image_picker",
-			"label": "Main Banner"
+			"label": "Image"
 		},
 		{
-			"id": "main-banner-heading",
+			"id": "text",
 			"type": "textarea",
-			"label": "Main Banner Heading"
+			"label": "Text"
 		}
 	],
 	"presets": [
