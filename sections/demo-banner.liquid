@@ -2,15 +2,14 @@
 <!-- 	<div id="container"> -->
 <!-- banner -->
       <div id="banner">
+        <figure class="figure1">
         {% for block in section.blocks %}
          {% case block.type %}
           {% when 'image' %}
-            <figure class="figure1">
               <img src="{{ block.settings.image | image_url }}" alt="img">
-            </figure>
          {% endcase %}
         {% endfor %}
-        
+        </figure>
         <div class="description">
           <div class="container">
         {% for block in section.blocks %}
