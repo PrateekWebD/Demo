@@ -30,6 +30,7 @@
                   {% assign i=1 %}
                   {% assign articles = blogs.news.articles %}
                   {% assign articles = articles | offset: 10 %}
+                  {{articles|json}}
                   {% for article in articles %}
 
                   <li>
