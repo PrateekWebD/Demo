@@ -3,7 +3,8 @@
     "home_page_banner": {
       "type": "home-page-banner",
       "settings": {
-        "text": ""
+        "image": "shopify:\/\/shop_images\/banner-img1.jpg",
+        "text": "Investing in a sustainable future"
       }
     },
     "demo_banner": {
