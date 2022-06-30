@@ -5,6 +5,9 @@
               <h2 class="display-3 fw-normal">{{ section.settings.heading }}</h2>
             </header>
             <div class="row align-items-center">
+              {% assign i=1 %}
+              Value of I is {{ i }}
+              {% for article in blogs.myblogs.articles %}
               <div class="col-md-6 pe-xl-5 column mb-md-0">
                 <article class="card1">
                   <a href="#">
@@ -18,6 +21,7 @@
                   </a>
                 </article>
               </div>
+             {% endfor %}
               <div class="col-md-6 ps-xl-5 column mb-0">
                 <ul class="list1">
                   <li>
@@ -45,10 +49,6 @@
         </div>
 <!-- /section -->
 
-
-{% for article in blogs.myblogs.articles %}
-  {{- article.title | link_to: article.url }}
-{% endfor %}
 
 {% schema %}
   {
