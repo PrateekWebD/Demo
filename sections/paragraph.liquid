@@ -1,12 +1,27 @@
+<!-- section -->
+        <div class="section pb-0 pb-lg-5 mt-xl-5">
+          <div class="container">
+            {{ section.settings.content }}
+          </div>
+        </div>
+<!--/section -->
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Paragraph",
+    "settings": [
+		{
+			"id": "content",
+			"type": "richtext",
+			"label": "Paragraph"
+		}
+	],
+	"presets":[
+		{
+			"name": "Paragraph"
+		}
+	]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
