@@ -3,11 +3,14 @@
     "banner_with_text": {
       "type": "banner-with-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-img6.jpg",
+        "text": "About"
       }
     },
     "paragraph": {
       "type": "paragraph",
       "settings": {
+        "content": "<p>Founded in the British Virgin Islands but operating at a global scale, Sustainable Food Enterprises was established to build, invest in and operate a group of thriving aquaculture businesses, focused on everything from producing premium quality shellfish products to designing and developing world-first hatchery equipment.<\/p><p>With an aim to become a leader in sustainable shellfish production, Sustainable Food Enterprises has invested heavily into its research and development practices and projects, helping to achieve ground-breaking results for the industry.<\/p>"
       }
     }
   },
