@@ -14,11 +14,11 @@
                   <div class="row align-items-center">
                     <div class="col-lg-2 col-md-3 mb-3 mb-md-0">
                       <figure>
-                        <img src="images/image5.png " alt="img ">
+                        <img src="{{ section.settings.image | image_url }}" alt="img ">
                       </figure>
                     </div>
                     <div class="col-lg-10 col-md-9">
-                      <p>- Dr Nik Sachlikidis, Managing Director of Aquaculture</p>
+                      <p>- {{ section.settings.designation }}</p>
                     </div>
                   </div>
                 </div>
@@ -46,6 +46,16 @@
 			"id": "content",
 			"type": "richtext",
 			"label": "Content"
+		},
+		{
+			"id": "image",
+			"type": "image_picker",
+			"label": "Image"
+		},
+		{
+			"id": "designation",
+			"type": "textarea",
+			"label": "Designation"
 		}
 	],
 	"presets": [
