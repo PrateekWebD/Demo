@@ -3,12 +3,16 @@
     "banner_with_text": {
       "type": "banner-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img6.jpg",
-        "text": "About"
+      }
+    },
+    "paragraph": {
+      "type": "paragraph",
+      "settings": {
       }
     }
   },
   "order": [
-    "banner_with_text"
+    "banner_with_text",
+    "paragraph"
   ]
 }
