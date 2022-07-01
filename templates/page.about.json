@@ -16,6 +16,9 @@
     "our_mission": {
       "type": "our-mission",
       "settings": {
+        "title": "Our Mission",
+        "heading": "",
+        "content": ""
       }
     }
   },
