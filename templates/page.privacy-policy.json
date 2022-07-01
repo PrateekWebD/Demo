@@ -6,9 +6,15 @@
         "image": "shopify:\/\/shop_images\/banner-img6.jpg",
         "text": "Privacy Policy"
       }
+    },
+    "privacy_policy_content": {
+      "type": "content",
+      "settings": {
+      }
     }
   },
   "order": [
-    "banner_with_text"
+    "banner_with_text",
+    "privacy_policy_content"
   ]
 }
