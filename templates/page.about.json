@@ -22,11 +22,17 @@
         "image": "shopify:\/\/shop_images\/image5.png",
         "designation": "Dr Nik Sachlikidis, Managing Director of Aquaculture"
       }
+    },
+    "our_team": {
+      "type": "our-team",
+      "settings": {
+      }
     }
   },
   "order": [
     "banner_with_text",
     "paragraph",
-    "our_mission"
+    "our_mission",
+    "our_team"
   ]
 }
