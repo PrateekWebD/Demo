@@ -82,12 +82,18 @@
       "settings": {
         "heading": "Our Team"
       }
+    },
+    "our_history": {
+      "type": "our-history",
+      "settings": {
+      }
     }
   },
   "order": [
     "banner_with_text",
     "paragraph",
     "our_mission",
-    "our_team"
+    "our_team",
+    "our_history"
   ]
 }
