@@ -43,8 +43,8 @@
     "mission": {
       "type": "mission",
       "settings": {
-        "heading": "",
-        "content": ""
+        "heading": "Our Mission",
+        "content": "<p>“We take a stand for sustainability and work to protect shellfish stocks, enrich the community, and empower a sustainable way of life.”<\/p>"
       }
     },
     "banner": {
