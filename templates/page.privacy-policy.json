@@ -3,7 +3,8 @@
     "banner_with_text": {
       "type": "banner-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img6.jpg"
+        "image": "shopify:\/\/shop_images\/banner-img6.jpg",
+        "text": "Privacy Policy"
       }
     }
   },
