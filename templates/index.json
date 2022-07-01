@@ -64,6 +64,12 @@
       "settings": {
         "heading": "get in touch"
       }
+    },
+    "1656655270a03eff91": {
+      "type": "banner-with-text",
+      "settings": {
+        "text": ""
+      }
     }
   },
   "order": [
@@ -73,6 +79,7 @@
     "mission",
     "banner",
     "news",
-    "home_page_form"
+    "home_page_form",
+    "1656655270a03eff91"
   ]
 }
