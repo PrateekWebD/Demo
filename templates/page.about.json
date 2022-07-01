@@ -25,6 +25,20 @@
     },
     "our_team": {
       "type": "our-team",
+      "blocks": {
+        "e99857cb-fe75-4453-976d-a1648cedfb1b": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team1.jpg",
+            "name": "James Dinsdale",
+            "post": "CEO",
+            "content": "<p>With over 15 years executive success across multiple sectors and organizational sizes, James has considerable experience of operational execution, as well as expertise in M&A, due diligence and value creation. He has held senior roles at several well-known businesses including phs Group, Travis Perkins, CHEP and G4S. Additionally, he has most recently spent several years consulting in the Private Equity space. James oversees the day-to-day running of the Group, as well as managing the deployment of investment capital into UK entities.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e99857cb-fe75-4453-976d-a1648cedfb1b"
+      ],
       "settings": {
         "heading": "Our Team"
       }
