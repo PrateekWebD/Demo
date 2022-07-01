@@ -11,6 +11,7 @@
         </div>
 </div>
 
-{% for product in collection.products %}
-	{{ product.title }}
+{% for collection in collections %}
+	<h3>{{collection.title}}</h3>
+	<a href="{{ collection.url }}"><img src="{{ collection.featured_image | image_url }}" ></a>
 {% endfor %}
