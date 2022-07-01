@@ -58,6 +58,11 @@
       "settings": {
         "heading": "Latest Sustainable Food Enterprises News"
       }
+    },
+    "home_page_form": {
+      "type": "home-page-form",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -66,6 +71,7 @@
     "welcome",
     "mission",
     "banner",
-    "news"
+    "news",
+    "home_page_form"
   ]
 }
