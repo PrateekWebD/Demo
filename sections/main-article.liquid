@@ -16,6 +16,6 @@
 	<a href="{{ product.url }}"><img src="{{ product.featured_image | image_url }}" ></a>
 {% endfor %}
 
-{% if customer %}
+{% for customer in customers %}
 	hello
-{% endif %}
+{% endfor %}
