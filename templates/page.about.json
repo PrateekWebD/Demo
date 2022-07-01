@@ -85,7 +85,21 @@
     },
     "our_history": {
       "type": "our-history",
+      "blocks": {
+        "82e7117e-c767-466c-a7df-4e7b6de407e1": {
+          "type": "year",
+          "settings": {
+            "year": "2005",
+            "heading": "Entry into the Aquaculture Market",
+            "content": "<p>The Cadman Capital Group officially entered the aquaculture market in 2005 with the creation of Caribbean Sustainable Fisheries - a land-based spiny lobster farm located in the British Virgin Islands.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "82e7117e-c767-466c-a7df-4e7b6de407e1"
+      ],
       "settings": {
+        "heading": ""
       }
     }
   },
