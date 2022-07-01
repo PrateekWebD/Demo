@@ -1,14 +1,12 @@
 {
   "sections": {
-    "banner_with_text": {
-      "type": "banner-with-text",
+    "main": {
+      "type": "main-page",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img6.jpg",
-        "text": "he"
       }
     }
   },
   "order": [
-    "banner_with_text"
+    "main"
   ]
 }
