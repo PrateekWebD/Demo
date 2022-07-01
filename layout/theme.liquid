@@ -16,14 +16,15 @@
 <body>
     <div id="container">
   	{% section 'header' %}
-  	{{content_for_layout}}
-  
-  	{{ 'jquery.js' | asset_url | script_tag }}
-  	{{ 'popper.js' | asset_url | script_tag }}
-  	{{ 'bootstrap.js' | asset_url | script_tag }}
-  	{{ 'ofi.browser.js' | asset_url | script_tag }}
-  	{{ 'main.js' | asset_url | script_tag }}
-  	
+      <div id="content">
+        {{content_for_layout}}
+
+        {{ 'jquery.js' | asset_url | script_tag }}
+        {{ 'popper.js' | asset_url | script_tag }}
+        {{ 'bootstrap.js' | asset_url | script_tag }}
+        {{ 'ofi.browser.js' | asset_url | script_tag }}
+        {{ 'main.js' | asset_url | script_tag }}
+      </div>
   	{% section 'footer' %}
   	</div>
 </body>
