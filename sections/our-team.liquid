@@ -2,7 +2,7 @@
         <div class="section pb-lg-0">
           <div class="container">
             <header class="section-header text-start">
-              <h2>Our Team</h2>
+              <h2>{{ section.settings.heading }}</h2>
             </header>
             <div class="row">
               <div class="col-lg-4 col-md-6 people">
@@ -68,7 +68,11 @@
   {
     "name": "Our Team",
     "settings": [
-		
+		{
+			"id": "heading",
+			"type": "text",	
+			"label": "Heading"
+		}
 	],
 	"presets": [
 		{
