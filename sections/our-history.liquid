@@ -5,13 +5,16 @@
               <h2>{{ section.settings.heading }}</h2>
             </header>
             <ul class="progress-list">
-              
-              <li>
-                <span class="year">2005</span>
-                <h5>Entry into the Aquaculture Market</h5>
-                <p>The Cadman Capital Group officially entered the aquaculture market in 2005 with the creation of Caribbean Sustainable Fisheries - a land-based spiny lobster farm located in the British Virgin Islands.</p>
-              </li>
-              
+              {% for block in section.blocks %}
+                {% case block.type %}
+              	  {% when 'year' %}
+                    <li>
+                      <span class="year">{{ block.settings.year }}</span>
+                      <h5>{{ block.settings.heading }}</h5>
+                      {{ block.settings.content }}
+                    </li>
+              	 {% endcase %}
+              {% endfor %}
             </ul>
           </div>
         </div>
@@ -32,31 +35,30 @@
 	],
 	"blocks": [
 		{
-			"name": "Text",
-			"type": "text",
+			"name": "Add Year",
+			"type": "year",
 			"settings": [
-
-			]
-		},
-		{
-			"name": "Image",
-			"type": "image",
-			"settings": [
-
+				{
+                  "id": "year",
+                  "type": "text",
+                  "label": "Year"
+				},
+				{
+                  "id": "heading",
+                  "type": "text",
+                  "label": "Heading"
+				},
+				{
+                  "id": "content",
+                  "type": "richtext",
+                  "label": "Content"
+				}
 			]
 		}
 	],
 	"presets": [
 		{
-			"name": "Our History",
-			"blocks": [
-				{
-					"type": "text"
-				},
-				{
-					"type": "image"
-				}
-			]
+			"name": "Our History"
 		}
 	],
 	"templates": ["page"]
