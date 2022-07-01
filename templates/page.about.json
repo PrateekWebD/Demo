@@ -61,13 +61,23 @@
             "post": "R&D Director",
             "content": "<p>Matthew has over two decades of global aquaculture experience, including extensive knowledge and understanding of developing sustainable and eco-friendly nutrition and feed development solutions for the industry.<\/p><p>After completing his academic work, Matthew joined MG Kallis, a leader in the Australian seafood industry in the company’s Lobster Harvest division, where he worked on diet development for both slipper and tropical spiny lobsters and also supported the growth of the company’s Southeast Asian pilot farm. Matthew played a pivotal role as Lobster Harvest became the first company to solve the breeding cycle of the tropical spiny lobster and breed F1 generation lobsters.<\/p><p>At Sustainable Food Enterprises, Matthew’s primary focus is to lead the expansion of our research and development commitments, as we look to increase our product ranges, achieve breakthroughs in and further diversify our portfolio.<\/p>"
           }
+        },
+        "ef1949f7-315c-4cf8-9546-d8bbd5d9f1fe": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team5.jpg",
+            "name": "Owain Wynn-Jones",
+            "post": "Commercial Director",
+            "content": "<p>Having completed undergraduate studies in Zoology, Owain went on to obtain his Master of Science in Aquaculture and Development, before beginning his career in the aquaculture sector. Through his previous roles including Head of Market Development at Offshore Shellfish, Operations Manager at Southern Aqua and Assistant Scientist at Environment Agency, Owain has developed a solid understanding of the sector at a global scale, from both a scientific and market perspective.<\/p><p>In his role as Commercial Director, Owain is focused on accelerating growth across the entire aquaculture portfolio, implementing and executing strategies with an aim of achieving the objectives of each of the individual businesses, as well as the goals of Sustainable Food Enterprises as a whole.<\/p>"
+          }
         }
       },
       "block_order": [
         "e99857cb-fe75-4453-976d-a1648cedfb1b",
         "2cb6a1ac-44c0-4d57-a700-e97f8cedd247",
         "f6f33ff5-6855-4eca-9f98-29ed7139d31e",
-        "40a7b98a-5488-484c-80c4-0cf24acd867e"
+        "40a7b98a-5488-484c-80c4-0cf24acd867e",
+        "ef1949f7-315c-4cf8-9546-d8bbd5d9f1fe"
       ],
       "settings": {
         "heading": "Our Team"
