@@ -1,12 +1,12 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "banner_with_text": {
+      "type": "banner-with-text",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "banner_with_text"
   ]
 }
