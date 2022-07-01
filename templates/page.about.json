@@ -93,10 +93,46 @@
             "heading": "Entry into the Aquaculture Market",
             "content": "<p>The Cadman Capital Group officially entered the aquaculture market in 2005 with the creation of Caribbean Sustainable Fisheries - a land-based spiny lobster farm located in the British Virgin Islands.<\/p>"
           }
+        },
+        "3b03ede7-7f5f-41c9-a95a-312ecf64d5c3": {
+          "type": "year",
+          "settings": {
+            "year": "2006",
+            "heading": "Investment into Caribbean Sustainable Fisheries",
+            "content": "<p>The Cadman Capital Group invested heavily into Caribbean Sustainable Fisheries to support initial research and set up. Construction planning and approvals for the first Caribbean Sustainable Fisheries farm build were submitted and completed.<\/p>"
+          }
+        },
+        "b5ef0f7c-aef0-4c8c-895b-691b0cb367f6": {
+          "type": "year",
+          "settings": {
+            "year": "2009",
+            "heading": "The first Caribbean Sustainable Fisheries farm opens",
+            "content": "<p>The build of Caribbean Sustainable Fisheries’ first farm and R&D facility at Pockwood Pond was completed.<\/p>"
+          }
+        },
+        "125192b2-e403-4e18-b4f0-300e2b609a35": {
+          "type": "year",
+          "settings": {
+            "year": "2010",
+            "heading": "Entry into the aquaculture technology market",
+            "content": "<p>The business began working with Shellfish Hatchery Systems, an aquaculture technology business at the forefront of the industry.<\/p>"
+          }
+        },
+        "4accda9e-8577-4ebe-819d-f6ca21e3b487": {
+          "type": "year",
+          "settings": {
+            "year": "2011",
+            "heading": "First pueruli harvest at Caribbean Sustainable Fisheries",
+            "content": "<p>Caribbean Sustainable Fisheries had its first successful pueruli harvest. The business patented its Commercial Post Larval Collector Habitat (used for collecting lobster in its high mortality phase) to protect its ground-breaking equipment.<\/p>"
+          }
         }
       },
       "block_order": [
-        "82e7117e-c767-466c-a7df-4e7b6de407e1"
+        "82e7117e-c767-466c-a7df-4e7b6de407e1",
+        "3b03ede7-7f5f-41c9-a95a-312ecf64d5c3",
+        "b5ef0f7c-aef0-4c8c-895b-691b0cb367f6",
+        "125192b2-e403-4e18-b4f0-300e2b609a35",
+        "4accda9e-8577-4ebe-819d-f6ca21e3b487"
       ],
       "settings": {
         "heading": ""
