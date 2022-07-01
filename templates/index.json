@@ -62,6 +62,7 @@
     "home_page_form": {
       "type": "home-page-form",
       "settings": {
+        "heading": "get in touch"
       }
     }
   },
