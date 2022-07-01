@@ -34,10 +34,30 @@
             "post": "CEO",
             "content": "<p>With over 15 years executive success across multiple sectors and organizational sizes, James has considerable experience of operational execution, as well as expertise in M&A, due diligence and value creation. He has held senior roles at several well-known businesses including phs Group, Travis Perkins, CHEP and G4S. Additionally, he has most recently spent several years consulting in the Private Equity space. James oversees the day-to-day running of the Group, as well as managing the deployment of investment capital into UK entities.<\/p>"
           }
+        },
+        "2cb6a1ac-44c0-4d57-a700-e97f8cedd247": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team2.jpg",
+            "name": "John Percival",
+            "post": "Finance Director",
+            "content": "<p>Underpinned by his extensive experience in financial management and the knowledge gained through his previous roles at a range of global companies including XPO, Joules, Paperlinx and Fisher Scientific, John joined the Group in 2019 to implement improved financial control systems across the business. His primary focuses are on financial reporting, fund reporting for the Real Estate and Food and Beverages portfolios, the financial integration of the UK acquired businesses and ensuring fiscal discipline throughout. His skills in negotiation, business planning, management and operations make him a core part of the Group’s leadership team.<\/p>"
+          }
+        },
+        "f6f33ff5-6855-4eca-9f98-29ed7139d31e": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team3.jpg",
+            "name": "Dr Nik Sachlikidis",
+            "post": "Managing Director of Aquaculture",
+            "content": "<p>Nik is one of the world’s leading aquaculture and fisheries experts, bringing more than 20 years of practical experience in the government and commercial fisheries and aquaculture sectors. He has previously held a range of scientific leadership roles in industry-science based partnerships focused on the development of lobster aquaculture techniques and technology and has worked in aid programs throughout South-East Asia. Nik was hired by American restaurant-giant Darden to lead the build and operation of a lobster hatchery in Malaysia and was later appointed Director of Science for the group. In his role at Sustainable Food Enterprises, Nik is responsible for the implementation of the sustainability agenda and strategy, with the development of additional aquaculture products, farms, and hatcheries as a priority.<\/p>"
+          }
         }
       },
       "block_order": [
-        "e99857cb-fe75-4453-976d-a1648cedfb1b"
+        "e99857cb-fe75-4453-976d-a1648cedfb1b",
+        "2cb6a1ac-44c0-4d57-a700-e97f8cedd247",
+        "f6f33ff5-6855-4eca-9f98-29ed7139d31e"
       ],
       "settings": {
         "heading": "Our Team"
