@@ -52,12 +52,22 @@
             "post": "Managing Director of Aquaculture",
             "content": "<p>Nik is one of the world’s leading aquaculture and fisheries experts, bringing more than 20 years of practical experience in the government and commercial fisheries and aquaculture sectors. He has previously held a range of scientific leadership roles in industry-science based partnerships focused on the development of lobster aquaculture techniques and technology and has worked in aid programs throughout South-East Asia. Nik was hired by American restaurant-giant Darden to lead the build and operation of a lobster hatchery in Malaysia and was later appointed Director of Science for the group. In his role at Sustainable Food Enterprises, Nik is responsible for the implementation of the sustainability agenda and strategy, with the development of additional aquaculture products, farms, and hatcheries as a priority.<\/p>"
           }
+        },
+        "40a7b98a-5488-484c-80c4-0cf24acd867e": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team4.jpg",
+            "name": "Dr Matthew Johnston",
+            "post": "R&D Director",
+            "content": "<p>Matthew has over two decades of global aquaculture experience, including extensive knowledge and understanding of developing sustainable and eco-friendly nutrition and feed development solutions for the industry.<\/p><p>After completing his academic work, Matthew joined MG Kallis, a leader in the Australian seafood industry in the company’s Lobster Harvest division, where he worked on diet development for both slipper and tropical spiny lobsters and also supported the growth of the company’s Southeast Asian pilot farm. Matthew played a pivotal role as Lobster Harvest became the first company to solve the breeding cycle of the tropical spiny lobster and breed F1 generation lobsters.<\/p><p>At Sustainable Food Enterprises, Matthew’s primary focus is to lead the expansion of our research and development commitments, as we look to increase our product ranges, achieve breakthroughs in and further diversify our portfolio.<\/p>"
+          }
         }
       },
       "block_order": [
         "e99857cb-fe75-4453-976d-a1648cedfb1b",
         "2cb6a1ac-44c0-4d57-a700-e97f8cedd247",
-        "f6f33ff5-6855-4eca-9f98-29ed7139d31e"
+        "f6f33ff5-6855-4eca-9f98-29ed7139d31e",
+        "40a7b98a-5488-484c-80c4-0cf24acd867e"
       ],
       "settings": {
         "heading": "Our Team"
