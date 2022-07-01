@@ -2,66 +2,16 @@
         <div class="section pt-0">
           <div class="container">
             <header class="section-header text-start">
-              <h2>Our History</h2>
+              <h2>{{ section.settings.heading }}</h2>
             </header>
             <ul class="progress-list">
+              
               <li>
                 <span class="year">2005</span>
                 <h5>Entry into the Aquaculture Market</h5>
                 <p>The Cadman Capital Group officially entered the aquaculture market in 2005 with the creation of Caribbean Sustainable Fisheries - a land-based spiny lobster farm located in the British Virgin Islands.</p>
               </li>
-              <li>
-                <span class="year">2006</span>
-                <h5>Investment into Caribbean Sustainable Fisheries</h5>
-                <p>The Cadman Capital Group invested heavily into Caribbean Sustainable Fisheries to support initial research and set up. Construction planning and approvals for the first Caribbean Sustainable Fisheries farm build were submitted and completed.</p>
-              </li>
-              <li>
-                <span class="year">2009</span>
-                <h5>The first Caribbean Sustainable Fisheries farm opens</h5>
-                <p>The build of Caribbean Sustainable Fisheries’ first farm and R&D facility at Pockwood Pond was completed.</p>
-              </li>
-              <li>
-                <span class="year">2010</span>
-                <h5>Entry into the aquaculture technology market</h5>
-                <p>The business began working with Shellfish Hatchery Systems, an aquaculture technology business at the forefront of the industry.</p>
-              </li>
-              <li>
-                <span class="year">2011</span>
-                <h5>First pueruli harvest at Caribbean Sustainable Fisheries</h5>
-                <p>Caribbean Sustainable Fisheries had its first successful pueruli harvest. The business patented its Commercial Post Larval Collector Habitat (used for collecting lobster in its high mortality phase) to protect its ground-breaking equipment.</p>
-              </li>
-              <li>
-                <span class="year">2014</span>
-                <h5>Increased survival rates for Caribbean spiny lobster achieved </h5>
-                <p>The Cadman Capital Group officially entered the aquaculture market in 2005 with the creation of Caribbean Sustainable Fisheries - a land-based spiny lobster farm located in the British Virgin Islands.Caribbean Sustainable Fisheries achieved increased grown on survival rates at Pockwood Pond.</p>
-              </li>
-              <li>
-                <span class="year">2017</span>
-                <h5>Appointment of key personnel and investment into Orkney Shellfish Hatchery </h5>
-                <p>Dr Nik Sachlikidis was appointed to oversee the aquaculture businesses and drive the portfolio forward. The business invested $2m into the creation of Orkney Shellfish Hatchery, with a focus on creating a first-class facility with a heavy focus on its bio-security protocols.</p>
-                <p>The business acquired Shellfish Hatchery Systems (now operating as Ocean On Land Technology) in order to progress its work and invest more heavily into R&D around aquaculture hatchery systems.</p>
-              </li>
-              <li>
-                <span class="year">2018</span>
-                <h5>Became a premium lobster supplier to US restaurants </h5>
-                <p>Caribbean Sustainable Fisheries began supplying its premium spiny lobster product to well-known restaurants in the US.</p>
-              </li>
-              <li>
-                <span class="year">2019</span>
-                <h5>Plans for new farms set in motion</h5>
-                <p>Expansion plans for new Caribbean Sustainable Fisheries farms in the BVI and Puerto Rico were developed.</p>
-              </li>
-              <li>
-                <span class="year">2020</span>
-                <h5>First oyster spat trials get underway</h5>
-                <p>Orkney Shellfish Hatchery achieves first successful spat production.</p>
-              </li>
-              <li>
-                <span class="year">2021</span>
-                <h5>Planning approved for additional BVI-based farm and commercialization of Orkney Shellfish Hatchery</h5>
-                <p>Planning was approved for the new, large-scale Caribbean Sustainable Fisheries farm in the BVI.</p>
-                <p>Orkney Shellfish Hatchery scaled up to first commercial scale production and makes first sale to re-stocking groups.</p>
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -80,9 +30,33 @@
 			"label": "Heading"
 		}
 	],
+	"blocks": [
+		{
+			"name": "Text",
+			"type": "text",
+			"settings": [
+
+			]
+		},
+		{
+			"name": "Image",
+			"type": "image",
+			"settings": [
+
+			]
+		}
+	],
 	"presets": [
 		{
-			"name": "Our History"
+			"name": "Our History",
+			"blocks": [
+				{
+					"type": "text"
+				},
+				{
+					"type": "image"
+				}
+			]
 		}
 	],
 	"templates": ["page"]
