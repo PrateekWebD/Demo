@@ -9,6 +9,34 @@
     },
     "sustainable_stats": {
       "type": "sustainable-stats",
+      "blocks": {
+        "f5ea1f1d-2d55-4cdf-b15e-ae67c6bd424a": {
+          "type": "stat",
+          "settings": {
+            "value": "$234.5 billion",
+            "content": "<p>is the reported value of the aquaculture industry<br\/>- The Sustainable Trade Initiative<\/p>"
+          }
+        },
+        "99d86580-c4b9-4626-86fc-1fede8364bc3": {
+          "type": "stat",
+          "settings": {
+            "value": "+122%",
+            "content": "<p>rise in total food fish consumption from 1990 to 2018<br\/>- FAO<\/p>"
+          }
+        },
+        "3b07cc8c-9d03-430a-a22e-706f8c85534d": {
+          "type": "stat",
+          "settings": {
+            "value": "34.2%",
+            "content": "<p>of fisheries are overfished<br\/>- FAO<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f5ea1f1d-2d55-4cdf-b15e-ae67c6bd424a",
+        "99d86580-c4b9-4626-86fc-1fede8364bc3",
+        "3b07cc8c-9d03-430a-a22e-706f8c85534d"
+      ],
       "settings": {
       }
     }
