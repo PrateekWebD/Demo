@@ -1,7 +1,3 @@
-{% for product in section.settings.product %}
-	{{product.title}}
-{% endfor %}
-
 <!-- section -->
         <div class="section stats">
           <div class="container">
@@ -33,13 +29,6 @@
 {% schema %}
   {
     "name": "Stats",
- 	"settings": [
-		{
-                  "type": "product_list",
-                    "id": "product",
-                    "label": "Products"
-                 }
-	],
 	"blocks": [
 		{
 			"name": "Stat",
