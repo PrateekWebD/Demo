@@ -39,10 +39,16 @@
       ],
       "settings": {
       }
+    },
+    "sustainable_content": {
+      "type": "sustainable-content",
+      "settings": {
+      }
     }
   },
   "order": [
     "banner_with_text",
-    "sustainable_stats"
+    "sustainable_stats",
+    "sustainable_content"
   ]
 }
