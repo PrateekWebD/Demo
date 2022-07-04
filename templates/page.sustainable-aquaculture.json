@@ -5,14 +5,14 @@
       "settings": {
       }
     },
-    "sustainable_stats": {
-      "type": "sustainable-stats",
+    "stats": {
+      "type": "stats",
       "settings": {
       }
     }
   },
   "order": [
     "banner_with_text",
-    "sustainable_stats"
+    "stats"
   ]
 }
