@@ -1,9 +1,3 @@
-{% for product in products %}
-	hello
-{% endfor %}
-
-
-
 <!-- section -->
         <div class="section stats">
           <div class="container">
@@ -18,6 +12,7 @@
                           <div class="inner-wrapper">
                             <span class="values">{{ block.settings.value }}</span>
                             {{ block.settings.content }}
+                            {{block.settings.product_list}}
                           </div>
                         </div>
                       
