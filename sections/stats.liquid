@@ -1,3 +1,5 @@
+{{section.settings.product}}
+
 <!-- section -->
         <div class="section stats">
           <div class="container">
@@ -12,7 +14,6 @@
                           <div class="inner-wrapper">
                             <span class="values">{{ block.settings.value }}</span>
                             {{ block.settings.content }}
-                            <h1>Yo-> {{block.settings.product.title}}</h1>
                           </div>
                         </div>
                       
@@ -30,7 +31,13 @@
 {% schema %}
   {
     "name": "Stats",
- 
+ 	"settings": [
+		{
+                  "type": "product_list",
+                    "id": "product",
+                    "label": "Products"
+                 }
+	],
 	"blocks": [
 		{
 			"name": "Stat",
@@ -47,12 +54,7 @@
 					"type": "richtext",
 					"label": "Content",
 					"default": "<p>Content</p>"
-				},
-				{
-                    "type": "product_list",
-                    "id": "product",
-                    "label": "Products"
-                 }
+				}
 			]
 			
 		}
