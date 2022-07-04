@@ -3,12 +3,16 @@
     "banner_with_text": {
       "type": "banner-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-img1.jpg",
-        "text": "Sustainable Aquaculture"
+      }
+    },
+    "sustainable_stats": {
+      "type": "sustainable-stats",
+      "settings": {
       }
     }
   },
   "order": [
-    "banner_with_text"
+    "banner_with_text",
+    "sustainable_stats"
   ]
 }
