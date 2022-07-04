@@ -15,7 +15,7 @@
           "settings": {
             "value": "39%",
             "content": "<p>Growth in global aquaculture production from 2009 to 2019<br\/>- FAO<\/p>",
-            "product_list": [
+            "product": [
               "car-1",
               "car-2"
             ]
@@ -26,7 +26,7 @@
           "settings": {
             "value": "62%",
             "content": "<p>Of all seafood will come from aquaculture by 2030<br\/>- Seafish<\/p>",
-            "product_list": [
+            "product": [
 
             ]
           }
