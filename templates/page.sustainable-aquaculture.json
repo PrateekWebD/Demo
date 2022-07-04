@@ -42,7 +42,33 @@
     },
     "sustainable_content": {
       "type": "sustainable-content",
+      "blocks": {
+        "1541e059-4f1a-49d7-a1a3-f96bf43f60a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-image1.png"
+          }
+        },
+        "c9333d11-c329-4ea6-bf09-a97ecd18149c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-image2.png"
+          }
+        },
+        "6971b652-e682-4891-bbdc-9cbd0226d867": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-image3.png"
+          }
+        }
+      },
+      "block_order": [
+        "1541e059-4f1a-49d7-a1a3-f96bf43f60a2",
+        "c9333d11-c329-4ea6-bf09-a97ecd18149c",
+        "6971b652-e682-4891-bbdc-9cbd0226d867"
+      ],
       "settings": {
+        "content": "<p>Aquaculture production is key to ensuring food supply for the growing population and has long been identified as the most sustainable way to achieve global food security. The growth of the industry is testament to this, with aquaculture production continuously growing at an average rate of 8% per year since the 1990’s.<\/p><p>In addition, aquaculture has its own role to play in environmental restoration, fromrestocking rapidly depleting shellfish stocks, to ensuring our oceans are kept clean and its reefs well maintained for aquatic living.<\/p><p>Throughout all of our businesses and in line with the ever-growing aquaculture industry, we execute a strong sustainability agenda, consciously operating in the most sustainable way possible and developing innovations that help us to do so.<\/p><p>For example, at Caribbean Sustainable Fisheries we have created a system for catching wild Puerulus only during the high mortality window, before then growing them on land in tanks. Through this process, we are ensuring that we can produce high quality lobsters with a much lower impact on wild stocks the traditional methods.<\/p><p>To put this into context, if we remove 1lb of first stage puerulus from the wild using our traps, we can produce 100,000lb of lobster for the market.<\/p><p>From a restorative perspective, at Orkney Shellfish Hatchery, we work with restoration projects to aid the replenishment of core shellfish species that are suffering from depleting stocks due to overfishing and deadly diseases. With oysters having a pivotal role to play in maintaining the health of our oceans, the production of clean, healthy, and disease-free native flat oyster spat remains our core focus.<\/p><p>In addition, we also focus on the replenishment of European clawed lobster stocks. Much like oysters, natural European clawed lobster stocks are a valuable and sought-after seafood, threatened by overfishing and naturally high mortality rates. By utilizing an economically viable lobster hatchery system from Ocean On Land Technology, we are able to offer a lobster juvenile product that benefits the repopulation of wild fisheries, as well as supports today’s fishermen and the fishermen of the future<\/p>"
       }
     }
   },
