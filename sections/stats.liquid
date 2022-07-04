@@ -1,4 +1,6 @@
-{{section.settings.product}}
+{% for product in section.settings.product %}
+	{{product.title}}
+{% endfor %}
 
 <!-- section -->
         <div class="section stats">
