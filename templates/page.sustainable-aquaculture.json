@@ -7,14 +7,14 @@
         "text": "Sustainable Aquaculture"
       }
     },
-    "stats": {
-      "type": "stats",
+    "sustainable_stats": {
+      "type": "sustainable-stats",
       "settings": {
       }
     }
   },
   "order": [
     "banner_with_text",
-    "stats"
+    "sustainable_stats"
   ]
 }
