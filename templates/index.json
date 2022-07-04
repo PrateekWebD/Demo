@@ -14,14 +14,21 @@
           "type": "stat-box",
           "settings": {
             "value": "39%",
-            "content": "<p>Growth in global aquaculture production from 2009 to 2019<br\/>- FAO<\/p>"
+            "content": "<p>Growth in global aquaculture production from 2009 to 2019<br\/>- FAO<\/p>",
+            "product_list": [
+              "car-1",
+              "car-2"
+            ]
           }
         },
         "aa0efac7-9156-4896-beb5-58c1f663c97d": {
           "type": "stat-box",
           "settings": {
             "value": "62%",
-            "content": "<p>Of all seafood will come from aquaculture by 2030<br\/>- Seafish<\/p>"
+            "content": "<p>Of all seafood will come from aquaculture by 2030<br\/>- Seafish<\/p>",
+            "product_list": [
+
+            ]
           }
         }
       },
