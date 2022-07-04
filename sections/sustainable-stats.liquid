@@ -1,12 +1,61 @@
+<!-- section -->
+        <div class="section stats pb-3">
+          <div class="container">
+            <div class="box">
+              <div class="row">
+                <div class="col-md-4 column mb-md-0">
+                  <div class="inner-wrapper">
+                    <span class="values">$234.5 billion</span>
+                    <p>is the reported value of the aquaculture industry <br>- The Sustainable Trade Initiative </p>
+                  </div>
+                </div>
+                <div class="col-md-4 column mb-md-0">
+                  <div class="inner-wrapper">
+                    <span class="values">+122%</span>
+                    <p>rise in total food fish consumption from 1990 to 2018 <br>- FAO </p>
+                  </div>
+                </div>
+                <div class="col-md-4 column mb-md-0">
+                  <div class="inner-wrapper">
+                    <span class="values">34.2%</span>
+                    <p>of fisheries are overfished <br>- FAO </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- /section -->
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Sustainable Stats",
+    "settings": [],
+	"blocks": [
+		{
+			"name": "Stats",
+			"type": "stat",
+			"settings": [
+				{
+					"id": "value",		
+					"type": "text",
+					"label": "Value"
+				},
+				{
+					"id": "content",		
+					"type": "richtext",
+					"label": "Content"
+				}
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Sustainable Stats"
+		}
+	],
+	"templates": ["page"]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
