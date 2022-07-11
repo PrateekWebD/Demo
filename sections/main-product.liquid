@@ -3,6 +3,11 @@
 <br>
 <h3>Price: {{ product.price }}</h3>
 
+{% form 'product' %}
+  <input type="submit" value="Add to cart">
+{% endform %}
+
+
 {% schema %}
   {
     "name": "Product",
