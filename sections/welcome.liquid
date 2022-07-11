@@ -1,5 +1,8 @@
 {% for product in collections.cars.products %}
+	{% form 'product',product %}
 	{{ product.title }}
+	<input type="submit" value="Add to cart">
+	{% endform %}
 {% endfor %}
 
 <!-- section -->
