@@ -1,4 +1,6 @@
-{{collections.cars.products.car-1}}
+{% for product in collections.cars.products %}
+	{{ product.title }}
+{% endfor %}
 
 <!-- section -->
         <div class="section pb-lg-5">
